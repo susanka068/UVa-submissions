@@ -15,7 +15,7 @@ int main() {
         else if(s=="HELLO")
         cout<<"Case "<<count<<": "<<"ENGLISH"<<'\n';
          else if(s=="HALLO")
-         cout<<"Case "<<count<<": "<<" GERMAN"<<'\n';
+         cout<<"Case "<<count<<": "<<"GERMAN"<<'\n';
          else if(s=="HOLA")
         cout<<"Case "<<count<<": "<<"SPANISH"<<'\n';
          else if(s=="BONJOUR")
