@@ -5,18 +5,18 @@ Author : Susanka Majumder (bingobong)
 using namespace std; 
 int main() 
 { 
-    int n,r;
+    int n,r,test=1;
     while(cin>>r>>n)
     { if(r==0 || n==0)
     exit(0);
-        int sol,test=1;
-       // float res;
-        sol = (int)r/n;
-       // sol = ceil(res);
+        int sol;
+        float res;
+        res = (float)r/n;
+        sol = ceil(res);
          if(sol>27)
          cout<<"Case "<<test<<": "<<"impossible"<<'\n';
           else
-         cout<<"Case "<<test<<": "<<sol<<'\n';
+         cout<<"Case "<<test<<": "<<sol-1<<'\n';
          test++;
     }
 	return 0; 
