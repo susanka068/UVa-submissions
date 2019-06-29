@@ -14,10 +14,10 @@ int main()
         float sol;
         sol=(float)(sqrt(8*k+1)-1)/2;
         n=(long long)sol;
-       // if(sol==n)
-        cout<<n<<'\n';
-       // else
-       // cout<<n+1<<'\n';
+         if(sol>n)
+        cout<<n+1<<'\n';
+          else
+         cout<<n<<'\n';
     }
 	return 0; 
 } 
